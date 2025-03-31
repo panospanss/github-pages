@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Εταιρική Ιστοσελίδα</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Καλώς ήρθατε στην εταιρεία μας</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Σχετικά</a></li>
+                <li><a href="#services">Υπηρεσίες</a></li>
+                <li><a href="#contact">Επικοινωνία</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>Ποιοι είμαστε</h2>
+        <p>Είμαστε μια εταιρεία που παρέχει κορυφαίες υπηρεσίες στους πελάτες μας.</p>
+    </section>
+    
+    <section id="services">
+        <h2>Οι Υπηρεσίες μας</h2>
+        <ul>
+            <li>Συμβουλευτική</li>
+            <li>Ανάπτυξη Λογισμικού</li>
+            <li>Υποστήριξη Πελατών</li>
+        </ul>
+    </section>
+    
+    <section id="contact">
+        <h2>Επικοινωνήστε μαζί μας</h2>
+        <form id="contact-form">
+            <label for="name">Όνομα:</label>
+            <input type="text" id="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            
+            <label for="message">Μήνυμα:</label>
+            <textarea id="message" required></textarea>
+            
+            <button type="submit">Αποστολή</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Η Εταιρεία μας. Όλα τα δικαιώματα διατηρούνται.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
